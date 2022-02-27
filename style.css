@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  background: linear-gradient(68.15deg, #16324b 16.62%, #0e8db5 85.61%);
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1920px;
+  border-bottom: 0.4px solid #d1e7ff;
+  padding: 20px;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header li + li {
+  margin-left: 50px;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #d1e7ff;
+  font-family: "Sarala", sans-serif;
+}
+
+.header li a:hover {
+  color: #6fb4ff;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.section div h1 {
+  font-family: "Righteous", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 79px;
+  color: #6fb4ff;
+}
+
+.section > div p {
+  font-family: "Sarala", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  color: #67979e;
+  margin-top: 50px;
+}
+
+.section > div button {
+  font-family: Sarala;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  background: #98e9f4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 14px 23px;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.section > div button:hover {
+  background: #6fb4ff;
+  color: #ffffff;
+}
+
+.section img {
+  margin-top: 50px;
+}
+
+.sectionTwo {
+  margin-top: 50px;
+}
+
+.sectionTwo h3 {
+  margin: 0 auto;
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #d1e7ff;
+  border-top: 0.4px solid #d1e7ff;
+  padding-top: 80px;
+  width: 273px;
+}
+.sectionTwo li {
+  margin-top: 50px;
+  font-family: Sarala;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #67979E;
+}
+
+.sectionTwo li {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: Impact;
+  font-size: 89.8387px;
+  line-height: 110px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 0.4px solid #d1e7ff;
+  margin-top: 80px;
+}
